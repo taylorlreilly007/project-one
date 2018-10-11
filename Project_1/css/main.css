@@ -1,0 +1,70 @@
+
+@import
+url(https://fonts.google.com/?category=Sans+Serif&selection.family=Kodchasan|Playfair+Display);
+
+.entire{
+    background-image: url("assets/photos/background/pattern.jpg");
+    background-repeat: repeat;
+    background-size: 10%;
+    border: 10px double black;
+}
+
+h1{
+    text-align: center;
+    text-emphasis: bold;
+    color:lightgray;
+    font-family: 'Playfair Display SC', serif;
+    background-color:black;
+    background-size: 20%;
+}
+
+p, li {
+    color: white;
+    text-justify: distribute;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 40%;
+    border:5px solid gray;
+    background-color:black;
+}
+
+h2{
+    color: white;
+    font-family: 'Playfair Display SC', serif; 
+    text-align: center;
+}
+
+.top{
+   background-color: black;
+   box-sizing: border-box; 
+   width:20%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align:center;
+   border-radius: 25px;
+   border: 2px solid gray;
+}
+
+.middle{
+    background-color: black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 2px solid gray;
+
+}
+
+.name{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+
+
