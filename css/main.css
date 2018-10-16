@@ -3,68 +3,58 @@
 url(https://fonts.google.com/?category=Sans+Serif&selection.family=Kodchasan|Playfair+Display);
 
 .entire{
-    background-image: url("assets/photos/background/pattern.jpg");
-    background-repeat: repeat;
-    background-size: 10%;
-    border: 10px double black;
+  color:rgb(51, 46, 46);
+
 }
 
-h1{
-    text-align: center;
-    text-emphasis: bold;
-    color:lightgray;
-    font-family: 'Playfair Display SC', serif;
-    background-color:black;
-    background-size: 20%;
+h1, h2{
+    font-family:'Playfair Display SC', serif;
+
 }
 
 p, li {
-    color: white;
-    text-justify: distribute;
+    text-justify: left;
     font-family: 'Kodchasan', sans-serif;
 }
 
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 40%;
-    border:5px solid gray;
-    background-color:black;
+
+#img{
+    left:auto;
+
 }
 
-h2{
-    color: white;
-    font-family: 'Playfair Display SC', serif; 
+#name{
     text-align: center;
 }
 
-.top{
-   background-color: black;
-   box-sizing: border-box; 
-   width:20%;
-   margin-left: auto;
-   margin-right: auto;
-   text-align:center;
-   border-radius: 25px;
-   border: 2px solid gray;
+.body{
+    overflow: hidden;
+    align-items: center;
 }
 
-.middle{
-    background-color: black;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    border: 2px solid gray;
+#bio, #acheiv{
+    width:500px;
+    margin:10px;
 
 }
 
-.name{
-    padding-top: 50px;
-    padding-bottom: 25px;
+#bio{
+    text-align: left;
+    float: left;
+
 }
+
+#acheiv{
+    text-align:right;
+    float:right;
+
+}
+
+
+
+
+
+
 
 
 
