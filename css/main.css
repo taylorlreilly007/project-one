@@ -1,54 +1,89 @@
 
-@import
-url(https://fonts.google.com/?category=Sans+Serif&selection.family=Kodchasan|Playfair+Display);
 
-.entire{
-  color:rgb(51, 46, 46);
-
+/*--Header--*/
+header{
+    background-color:yellow;
 }
 
 h1, h2{
-    font-family:'Playfair Display SC', serif;
-
+    font-family: 'Holtwood One SC', serif;
+}
+h1{
+    text-align: center;
+    background-color: yellow;
+    margin:0;
+    font-size: 50px;
+}
+img{
+    background-color:white;
 }
 
+/*--nav--*/
+nav{
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top:0;
+    font-size: 13px;
+}
+a:link{
+    color: black;
+    font-family: 'Text Me One', sans-serif; 
+    text-decoration: none;
+    padding:0 30px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+a:visited{
+    color:white;
+}
+
+/*--Body--*/
 p, li {
     text-justify: left;
-    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Text Me One', sans-serif;
 }
-
-
-#img{
-    left:auto;
-
-}
-
-#name{
+#incidentals{
+    line-height: 1em;
     text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    border-top: 10px solid black;
+    border-bottom:5px solid black;
+    background-image: url("assets/photos/background/chris.svg");
+    background-position: right-top;
+    background-repeat:none;
 }
-
-.body{
-    overflow: hidden;
-    align-items: center;
+#incidentals p{
+    font-weight:900;
 }
-
-#bio, #acheiv{
-    width:500px;
-    margin:10px;
+#biography, 
+#acheivements{
+    width:46.5%;
 
 }
-
-#bio{
-    text-align: left;
-    float: left;
+#biography{
+    float:left;
 
 }
-
-#acheiv{
-    text-align:right;
+#acheivements{
     float:right;
-
+    border-left: 2px solid black;
+    padding-left: 50px;
 }
+ul{
+    list-style-type:20px;
+}
+
+/*--FloatClearfix--*/
+.group:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
+
+
 
 
 
